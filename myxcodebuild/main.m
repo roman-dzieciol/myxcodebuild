@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Xcode3CommandLineBuildTool.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {

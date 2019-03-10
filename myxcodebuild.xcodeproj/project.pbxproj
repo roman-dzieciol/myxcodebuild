@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		71E12BAA2234DAF500D3B7F0 /* myxcodebuild */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = myxcodebuild; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E12BAD2234DAF500D3B7F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71E12BB42234DBAE00D3B7F0 /* Xcode3CommandLineBuildTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Xcode3CommandLineBuildTool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				71E12BAD2234DAF500D3B7F0 /* main.m */,
+				71E12BB42234DBAE00D3B7F0 /* Xcode3CommandLineBuildTool.h */,
 			);
 			path = myxcodebuild;
 			sourceTree = "<group>";
