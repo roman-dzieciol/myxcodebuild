@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7186FB6C2234E09D00124444 /* Xcode3Core in Frameworks */ = {isa = PBXBuildFile; fileRef = 7186FB6B2234E09D00124444 /* Xcode3Core */; };
+		7186FB6E2234E0B200124444 /* IDEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7186FB6D2234E0B200124444 /* IDEFoundation.framework */; };
+		7186FB702234E0D700124444 /* DVTDeviceFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7186FB6F2234E0D700124444 /* DVTDeviceFoundation.framework */; };
+		7186FB722234E0E100124444 /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7186FB712234E0E100124444 /* DVTFoundation.framework */; };
 		71E12BAE2234DAF500D3B7F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E12BAD2234DAF500D3B7F0 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7186FB6B2234E09D00124444 /* Xcode3Core */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = Xcode3Core; path = ../../../../Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/MacOS/Xcode3Core; sourceTree = "<group>"; };
+		7186FB6D2234E0B200124444 /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEFoundation.framework; path = ../../../../Applications/Xcode.app/Contents/Frameworks/IDEFoundation.framework; sourceTree = "<group>"; };
+		7186FB6F2234E0D700124444 /* DVTDeviceFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTDeviceFoundation.framework; path = ../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTDeviceFoundation.framework; sourceTree = "<group>"; };
+		7186FB712234E0E100124444 /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = ../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework; sourceTree = "<group>"; };
 		71E12BAA2234DAF500D3B7F0 /* myxcodebuild */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = myxcodebuild; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E12BAD2234DAF500D3B7F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71E12BB42234DBAE00D3B7F0 /* Xcode3CommandLineBuildTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Xcode3CommandLineBuildTool.h; sourceTree = "<group>"; };
@@ -33,6 +41,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7186FB722234E0E100124444 /* DVTFoundation.framework in Frameworks */,
+				7186FB702234E0D700124444 /* DVTDeviceFoundation.framework in Frameworks */,
+				7186FB6E2234E0B200124444 /* IDEFoundation.framework in Frameworks */,
+				7186FB6C2234E09D00124444 /* Xcode3Core in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +56,7 @@
 			children = (
 				71E12BAC2234DAF500D3B7F0 /* myxcodebuild */,
 				71E12BAB2234DAF500D3B7F0 /* Products */,
+				71E12BB52234DC6D00D3B7F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +75,17 @@
 				71E12BB42234DBAE00D3B7F0 /* Xcode3CommandLineBuildTool.h */,
 			);
 			path = myxcodebuild;
+			sourceTree = "<group>";
+		};
+		71E12BB52234DC6D00D3B7F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7186FB712234E0E100124444 /* DVTFoundation.framework */,
+				7186FB6F2234E0D700124444 /* DVTDeviceFoundation.framework */,
+				7186FB6D2234E0B200124444 /* IDEFoundation.framework */,
+				7186FB6B2234E09D00124444 /* Xcode3Core */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
