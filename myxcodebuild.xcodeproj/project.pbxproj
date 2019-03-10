@@ -31,6 +31,7 @@
 		7186FB6D2234E0B200124444 /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEFoundation.framework; path = ../../../../Applications/Xcode.app/Contents/Frameworks/IDEFoundation.framework; sourceTree = "<group>"; };
 		7186FB6F2234E0D700124444 /* DVTDeviceFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTDeviceFoundation.framework; path = ../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTDeviceFoundation.framework; sourceTree = "<group>"; };
 		7186FB712234E0E100124444 /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = ../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework; sourceTree = "<group>"; };
+		7186FB732234E14500124444 /* myxcodebuild.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = myxcodebuild.xcconfig; sourceTree = "<group>"; };
 		71E12BAA2234DAF500D3B7F0 /* myxcodebuild */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = myxcodebuild; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E12BAD2234DAF500D3B7F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71E12BB42234DBAE00D3B7F0 /* Xcode3CommandLineBuildTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Xcode3CommandLineBuildTool.h; sourceTree = "<group>"; };
@@ -71,6 +72,7 @@
 		71E12BAC2234DAF500D3B7F0 /* myxcodebuild */ = {
 			isa = PBXGroup;
 			children = (
+				7186FB732234E14500124444 /* myxcodebuild.xcconfig */,
 				71E12BAD2234DAF500D3B7F0 /* main.m */,
 				71E12BB42234DBAE00D3B7F0 /* Xcode3CommandLineBuildTool.h */,
 			);
@@ -264,6 +266,7 @@
 		};
 		71E12BB22234DAF500D3B7F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7186FB732234E14500124444 /* myxcodebuild.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E54RQ2YKR5;
@@ -273,6 +276,7 @@
 		};
 		71E12BB32234DAF500D3B7F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7186FB732234E14500124444 /* myxcodebuild.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E54RQ2YKR5;

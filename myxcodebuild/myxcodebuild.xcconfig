@@ -1,0 +1,16 @@
+//
+//  myxcodebuild.xcconfig
+//  myxcodebuild
+//
+//  Created by Roman Dzieciol on 3/10/19.
+//  Copyright © 2019 Roman Dzieciol. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+FRAMEWORK_SEARCH_PATHS = $(inherited) /Applications/Xcode.app/Contents/Frameworks /Applications/Xcode.app/Contents/SharedFrameworks
+
+LIBRARY_SEARCH_PATHS = $(inherited) /Applications/Xcode.app/Contents/PlugIns
+
+LD_RUNPATH_SEARCH_PATHS = @executable_path /Applications/Xcode.app/Contents/Frameworks /Applications/Xcode.app/Contents/SharedFrameworks /Applications/Xcode.app/Contents/PlugIns
