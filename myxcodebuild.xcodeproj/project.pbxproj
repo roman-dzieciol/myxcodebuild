@@ -27,10 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7186FB6B2234E09D00124444 /* Xcode3Core */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = Xcode3Core; path = ../../../../Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/MacOS/Xcode3Core; sourceTree = "<group>"; };
-		7186FB6D2234E0B200124444 /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEFoundation.framework; path = ../../../../Applications/Xcode.app/Contents/Frameworks/IDEFoundation.framework; sourceTree = "<group>"; };
-		7186FB6F2234E0D700124444 /* DVTDeviceFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTDeviceFoundation.framework; path = ../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTDeviceFoundation.framework; sourceTree = "<group>"; };
-		7186FB712234E0E100124444 /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = ../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework; sourceTree = "<group>"; };
+		7186FB6B2234E09D00124444 /* Xcode3Core */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = Xcode3Core; path = ../PlugIns/Xcode3Core.ideplugin/Contents/MacOS/Xcode3Core; sourceTree = DEVELOPER_DIR; };
+		7186FB6D2234E0B200124444 /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEFoundation.framework; path = ../Frameworks/IDEFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		7186FB6F2234E0D700124444 /* DVTDeviceFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTDeviceFoundation.framework; path = ../SharedFrameworks/DVTDeviceFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		7186FB712234E0E100124444 /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = ../SharedFrameworks/DVTFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		7186FB732234E14500124444 /* myxcodebuild.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = myxcodebuild.xcconfig; sourceTree = "<group>"; };
 		71E12BAA2234DAF500D3B7F0 /* myxcodebuild */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = myxcodebuild; sourceTree = BUILT_PRODUCTS_DIR; };
 		71E12BAD2234DAF500D3B7F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
